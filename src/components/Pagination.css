@@ -23,6 +23,10 @@ button:hover {
   color: #f7690b
 }
 
+button:disabled {
+  color: #7b7b7b
+}
+
 @media (max-width: 450px) {
   nav {
     margin: 40px 0;

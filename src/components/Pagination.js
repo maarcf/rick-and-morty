@@ -1,11 +1,12 @@
 import "./Pagination.css";
 
-const Pagination = ({ handleClickPrevious, page, handleClickNext}) => {
+const Pagination = ({ disabledPrev, disabledNext, handleClickPrevious, page, handleClickNext}) => {
+
   return (
     <nav>
-      <button onClick={handleClickPrevious}>Prev</button>
+      <button onClick={handleClickPrevious} disabled={!disabledPrev}>Prev</button>
       <p>{page}</p>
-      <button onClick={handleClickNext}>Next</button>
+      <button onClick={handleClickNext} disabled={!disabledNext}>Next</button>
     </nav>
   );
 };

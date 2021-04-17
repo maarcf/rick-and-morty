@@ -71,6 +71,8 @@ const App = () => {
       <CardsSection characters={characters} />
 
       <Pagination 
+        disabledPrev={pageInfo.prev}
+        disabledNext={pageInfo.next}
         handleClickPrevious={handleClickPrevious}
         page={page}
         handleClickNext={handleClickNext}
