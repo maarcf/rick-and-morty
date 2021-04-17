@@ -1,0 +1,26 @@
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #3b3b3b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  margin-top: 15px;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a:hover {
+  color: #f7690b
+}
+
+@media (max-width: 450px) {
+  footer {
+    height: 150px;
+  }
+}

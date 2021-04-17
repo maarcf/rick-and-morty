@@ -10,30 +10,35 @@ const GenderFilter = ({ handleChangeGender }) => {
           value="female"
           handleChange={handleChangeGender}
           text="Female"
+          id="gender"
         />
         <InputRadio
           nameRadio="gender"
           value="male"
           handleChange={handleChangeGender}
           text="Male"
+          id="gender"
         />
         <InputRadio
           nameRadio="gender"
           value="genderless"
           handleChange={handleChangeGender}
           text="Genderless"
+          id="gender"
         />
         <InputRadio
           nameRadio="gender"
           value="unknown"
           handleChange={handleChangeGender}
           text="Unknown"
+          id="gender"
         />
         <InputRadio
           nameRadio="gender"
           value=""
           handleChange={handleChangeGender}
           text="All"
+          id="gender"
         />
       </div>
     </label>

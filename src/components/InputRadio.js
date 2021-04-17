@@ -1,4 +1,4 @@
-const InputRadio = ({nameRadio, value, handleChange, text}) => {
+const InputRadio = ({nameRadio, value, handleChange, text, labelFor}) => {
   return(
     <>
       <input 
@@ -6,7 +6,7 @@ const InputRadio = ({nameRadio, value, handleChange, text}) => {
         name={nameRadio} 
         value={value} 
         onChange={handleChange}
-        />
+        id={labelFor}/>
         {text}
     </>
   )
