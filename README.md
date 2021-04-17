@@ -1,3 +1,9 @@
+# RICK AND MORTY
+
+:zap: You can see the project [here]("https://rick-and-morty-by-mari.netlify.app/") :zap:
+
+Author: [Mariana]("https://www.linkedin.com/in/mariana-cairo/")
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
